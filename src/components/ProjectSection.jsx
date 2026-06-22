@@ -106,7 +106,7 @@ const userCertificates = [
     issuer: "Java Tech Exibition",
     date: "Sep 2024",
     link: "src/assets/Certificate/Sertifikat Juara 1 java Tech Exibition.pdf",
-    image: "/certificate-images/JuaraPertama.jpeg",
+    image: "/certificate-images/Juara 1.png",
   },
 ];
 
