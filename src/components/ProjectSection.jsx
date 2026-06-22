@@ -83,29 +83,29 @@ const dummyProjects = [
   },
 ];
 
-// ===================================
+// ==========================================
 // DATA SERTIFIKAT  Shilsy
-// ===================================
+// ==========================================
 const userCertificates = [
   {
     title: "Sertifikat Bootcamp UIUX",
     issuer: "POLITEKNIK NEGERI JEMBER",
     date: "Des 2024",
-    link: "src/assets/Certificate/Sertifikat Bootcamp UIUX.pdf",
+    link: "/certificates/Sertifikat Bootcamp UIUX.pdf",
     image: "/certificate-images/UIUX.jpeg",
   },
   {
     title: "Sertifikat EPT",
     issuer: "English Proficiency Test",
     date: "Des 2024",
-    link: "src/assets/Certificate/Sertifikat EPT.pdf",
+    link: "/certificates/Sertifikat EPT.pdf",
     image: "/certificate-images/EPT.png",
   },
   {
     title: "Sertifikat Juara 1 java Tech Exibition",
     issuer: "Java Tech Exibition",
     date: "Sep 2024",
-    link: "src/assets/Certificate/Sertifikat Juara 1 java Tech Exibition.pdf",
+    link: "/certificates/Sertifikat Juara 1 java Tech Exibition.pdf",
     image: "/certificate-images/Juara 1.png",
   },
 ];
