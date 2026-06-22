@@ -3,16 +3,7 @@ import react from "@vitejs/plugin-react";
 
 // https://vite.dev/config/
 export default defineConfig({
-  // WAJIB ditambahkan untuk GitHub Pages agar aset tidak error 404
-  base: "/shilsy-portofolio/",
-
   plugins: [react()],
-
-  // Menggunakan esbuild bawaan Vite untuk menghapus console.log (Lebih cepat & tanpa install terser)
-  esbuild: {
-    drop: ["console", "debugger"],
-  },
-
   build: {
     rollupOptions: {
       output: {
@@ -51,6 +42,15 @@ export default defineConfig({
     },
     // Increase chunk size warning limit
     chunkSizeWarningLimit: 1000,
+
+    // Optimize minification
+    minify: "terser",
+    terserOptions: {
+      compress: {
+        drop_console: true, // Remove console.log di production
+        drop_debugger: true,
+      },
+    },
   },
 
   // Optimize dependencies
