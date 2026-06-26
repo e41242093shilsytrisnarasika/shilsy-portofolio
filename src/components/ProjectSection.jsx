@@ -38,7 +38,7 @@ const dummyProjects = [
       "Website kesehatan posyandu wilayah BagorWetan untuk mendeteksi angka stunting dan mencatat informasi Balita.",
     tech: ["Next.js", "React", "CSS", "PHP", "MySql", "Hostinger"],
     link: "https://github.com/e41242093shilsytrisnarasika/poscare",
-    image: "public/certificate-images/poscare.png",
+    image: "/certificate-images/poscare.png",
     category: "Web/Apps",
   },
   {
@@ -46,7 +46,7 @@ const dummyProjects = [
     description:
       "Aplikasi ini bermanfaat untuk memudahkan UMKM yang awalnya pencacatan manual menjadi digital berkat Aplikasi ini dibuat menggunakan Netbeans",
     tech: ["NetBeans", "Java", "Mysql", "Xampp"],
-    image: "public/certificate-images/image.png",
+    image: "/certificate-images/image.png",
     category: "Web/Apps",
   },
   {
@@ -55,14 +55,14 @@ const dummyProjects = [
       "Merancang sistem penyewaan Gedung serta fasilitas Masjid serta Amal online",
     tech: ["Figma", "PHP", "css", "Mysql", "Hostinger", "Laravel"],
     link: "https://github.com/e41242093shilsytrisnarasika/masnurhuda-website",
-    image: "public/certificate-images/Screenshot 2026-06-25 153735.png",
+    image: "/certificate-images/Screenshot 2026-06-25 153735.png",
     category: "Web/Apps",
   },
   {
     title: "Aplikasi Desktop Kasir Laundry",
     description: "Merancang sistem kasir dekstop laundry menggunakan Netbeans",
     tech: ["NetBeans", "Java", "Mysql", "Xampp"],
-    image: "public/certificate-images/Screenshot 2026-06-25 154016.png",
+    image: "/certificate-images/Screenshot 2026-06-25 154016.png",
     category: "Web/Apps",
   },
 ];
@@ -107,7 +107,7 @@ const userCertificates = [
     issuer: "magang SMK Negeri 1 Madiun selama 6 bulan",
     date: "22 Desembber 2022",
     link: "public/certificates/magang.pdf",
-    image: "public/certificate-images/magang.png",
+    image: "/certificate-images/magang.png",
   },
 
   {
@@ -115,7 +115,7 @@ const userCertificates = [
     issuer: "Java Tech Exibition",
     date: "1 maret 2022",
     link: "public/certificates/akuntan.pdf",
-    image: "public/certificate-images/akuntan.png",
+    image: "/certificate-images/akuntan.png",
   },
 ];
 
