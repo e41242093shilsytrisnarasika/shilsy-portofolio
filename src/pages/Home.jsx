@@ -42,13 +42,13 @@ const Home = () => {
   const stats = [
     {
       icon: <FaCode />,
-      value: "5",
+      value: "4",
       title: "TOTAL PROJECTS",
       description: "Innovative web solutions crafted",
     },
     {
       icon: <FaCertificate />,
-      value: "3",
+      value: "6",
       title: "CERTIFICATES",
       description: "Professional skills validated",
     },
@@ -320,10 +320,18 @@ const Home = () => {
               Shilsy Trisna Rasika
             </h3>
             <p className="dark:text-white/80 text-slate-600 leading-relaxed mt-4 font-cascadia text-justify">
-              Saya adalah mahasiswa Teknik Informatika di Politeknik Negeri
-              Jember yang memiliki minat besar dalam pengembangan Full Stack dan
-              teknologi web modern. Saya selalu bersemangat untuk belajar hal
-              baru dan menciptakan solusi digital yang inovatif.
+              I am a software developer with an educational background in
+              Information Technology, focusing on creating functional and
+              intuitive digital solutions. I have primary expertise in
+              Full-Stack Web development (Laravel, PHP, React) as well as Mobile
+              application creation (Android Native, Flutter). In my work
+              approach, I design systems comprehensively, from modern UI/UX
+              aesthetics, organizing efficient database architecture, to
+              implementing Software Quality Assurance (SQA) standards to
+              maintain product reliability. With a strong analytical mindset and
+              deep interest in automation and AI technology integration, I am
+              always ready to build efficient, scalable, and impactful
+              technology products for users
             </p>
             <div className="my-6 dark:bg-slate-900/50 bg-slate-50 border-l-4 dark:border-[#00ffdc] border-cyan-600 p-4 rounded-r-lg italic dark:text-white/70 text-slate-700 font-cascadia dark:shadow-none shadow-md">
               "Whoever strives shall succeed."

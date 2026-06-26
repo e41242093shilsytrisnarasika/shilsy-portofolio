@@ -35,51 +35,35 @@ const dummyProjects = [
   {
     title: "Poscare posyandu",
     description:
-      "Website portofolio pribadi yang dibangun dengan React, Next.js, dan php, di-deploy di Hostinger.",
-    tech: ["Next.js", "React", "CSS", "PHP"],
+      "Website kesehatan posyandu wilayah BagorWetan untuk mendeteksi angka stunting dan mencatat informasi Balita.",
+    tech: ["Next.js", "React", "CSS", "PHP", "MySql", "Hostinger"],
     link: "https://github.com/e41242093shilsytrisnarasika/poscare",
-    image:
-      "https://images.unsplash.com/photo-1551288049-bebda4e38f71?q=80&w=2070&auto=format&fit=crop",
+    image: "public/certificate-images/poscare.png",
     category: "Web/Apps",
   },
   {
-    title: "E-Commerce API",
+    title: "Aplikasi Kasir Desktop UMKM ",
     description:
-      "RESTful API untuk platform e-commerce dengan fitur otentikasi, manajemen produk, dan transaksi.",
-    tech: ["Node.js", "Express", "MongoDB", "JWT"],
-    link: "https://github.com/username/ecommerce-api",
-    image:
-      "https://images.unsplash.com/photo-1522199755839-a2bacb67c546?q=80&w=2072&auto=format&fit=crop",
+      "Aplikasi ini bermanfaat untuk memudahkan UMKM yang awalnya pencacatan manual menjadi digital berkat Aplikasi ini dibuat menggunakan Netbeans",
+    tech: ["NetBeans", "Java", "Mysql", "Xampp"],
+    image: "public/certificate-images/image.png",
     category: "Web/Apps",
   },
   {
-    title: "UI Design System",
+    title: "Website Masjid Besar Nurul Huda",
     description:
-      "Merancang komponen UI yang reusable dan konsisten untuk aplikasi web menggunakan Figma.",
-    tech: ["Figma", "Storybook"],
-    link: "#",
-    image:
-      "https://images.unsplash.com/photo-1600132806378-62402124d9e0?q=80&w=2070&auto=format&fit=crop",
+      "Merancang sistem penyewaan Gedung serta fasilitas Masjid serta Amal online",
+    tech: ["Figma", "PHP", "css", "Mysql", "Hostinger", "Laravel"],
+    link: "https://github.com/e41242093shilsytrisnarasika/masnurhuda-website",
+    image: "public/certificate-images/Screenshot 2026-06-25 153735.png",
     category: "Web/Apps",
   },
   {
-    title: "3D Product Visualization",
-    description:
-      "Desain 3D interaktif untuk showcase produk menggunakan Spline dan Blender.",
-    tech: ["Spline", "Blender"],
-    link: "#",
-    image:
-      "https://images.unsplash.com/photo-1506744038136-46273834b3fb?q=80&w=2070&auto=format&fit=crop",
-    category: "3D Design",
-  },
-  {
-    title: "Animated 3D Landing",
-    description: "Landing page dengan elemen 3D animasi untuk branding modern.",
-    tech: ["Spline", "Three.js"],
-    link: "#",
-    image:
-      "https://images.unsplash.com/photo-1465101046530-73398c7f28ca?q=80&w=2070&auto=format&fit=crop",
-    category: "3D Design",
+    title: "Aplikasi Desktop Kasir Laundry",
+    description: "Merancang sistem kasir dekstop laundry menggunakan Netbeans",
+    tech: ["NetBeans", "Java", "Mysql", "Xampp"],
+    image: "public/certificate-images/Screenshot 2026-06-25 154016.png",
+    category: "Web/Apps",
   },
 ];
 
@@ -90,23 +74,48 @@ const userCertificates = [
   {
     title: "Sertifikat Bootcamp UIUX",
     issuer: "POLITEKNIK NEGERI JEMBER",
-    date: "Des 2024",
+    date: "16 Juni 2025",
     link: "/certificates/Sertifikat Bootcamp UIUX.pdf",
     image: "/certificate-images/UIUX.jpeg",
   },
   {
     title: "Sertifikat EPT",
     issuer: "English Proficiency Test",
-    date: "Des 2024",
+    date: "16 Juni 2025",
     link: "/certificates/Sertifikat EPT.pdf",
     image: "/certificate-images/EPT.png",
   },
+
+  {
+    title: "Sertifikat Peserta Study Club UIUX",
+    issuer: "UI UX",
+    date: "31 mei 2025",
+    link: "/certificates/studeyclubuiux.pdf",
+    image: "/certificate-images/studyclub.jpg",
+  },
+
   {
     title: "Sertifikat Juara 1 java Tech Exibition",
     issuer: "Java Tech Exibition",
-    date: "Sep 2024",
+    date: "12 Februari 2026",
     link: "/certificates/Sertifikat Juara 1 java Tech Exibition.pdf",
     image: "/certificate-images/Juara 1.png",
+  },
+
+  {
+    title: "Sertifikat Magang Dinas Kelautan dan Perikanan Kota Madiun",
+    issuer: "magang SMK Negeri 1 Madiun selama 6 bulan",
+    date: "22 Desembber 2022",
+    link: "public/certificates/magang.pdf",
+    image: "public/certificate-images/magang.png",
+  },
+
+  {
+    title: "Sertifikat teknisi akuntan junior",
+    issuer: "Java Tech Exibition",
+    date: "1 maret 2022",
+    link: "public/certificates/akuntan.pdf",
+    image: "public/certificate-images/akuntan.png",
   },
 ];
 
@@ -762,12 +771,6 @@ function ProjectSection() {
                         onClick={() => setProjectCategory("Web/Apps")}
                       >
                         Web/Apps
-                      </button>
-                      <button
-                        className={`px-5 py-2 rounded-full font-semibold transition-all duration-200 border ${projectCategory === "3D Design" ? "bg-cyan-700/80 text-white border-cyan-400 shadow-cyan-500/10 shadow-lg" : "bg-slate-900/60 text-cyan-200 border-slate-700 hover:bg-cyan-800/40 hover:text-white"}`}
-                        onClick={() => setProjectCategory("3D Design")}
-                      >
-                        3D Design
                       </button>
                     </div>
                   )}
